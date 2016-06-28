@@ -19,7 +19,7 @@ public class Client {
 	}
 
 	public void init() {
-		Logic logic = new CleverLogic(new AdvancedLogic(new RandomLogic()));
+		Logic logic = new CleverLogic((new AdvancedLogic(new RandomLogic())));
 		try {
 			clientSocket = new Socket(port, Settings.PORT);
 			MazeComMessageFactory of = new MazeComMessageFactory();

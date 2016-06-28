@@ -22,8 +22,7 @@ public class MazeComMessageSender {
 			Logic logic) {
 		this.out = out;
 		this.of = of;
-		this.logic = logic;// new CleverLogic(new AdvancedLogic(new
-							// RandomLogic()));
+		this.logic = logic;;
 	}
 
 	public void setId(int id) {

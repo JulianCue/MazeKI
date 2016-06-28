@@ -39,14 +39,14 @@ public class MazeComHandler {
 					System.out.println("Second Move - illegal"); //$NON-NLS-1$
 					sender.doSecondMove();
 				} else if (amt.getErrorCode() == ErrorType.AWAIT_LOGIN) {
-					sender.login("RickTheDick"); //$NON-NLS-1$
+					sender.login("hehe xd"); //$NON-NLS-1$
 				}
 			}
 		} else if (mc.getMcType() == MazeComType.WIN) {
 			WinMessageType wmt = mc.getWinMessage();
 			System.out.println("Moves: " + counter); //$NON-NLS-1$
 			if (wmt.getWinner().getId() == id) {
-				System.out.println("easy peazy"); //$NON-NLS-1$
+				System.out.println("gg easy"); //$NON-NLS-1$
 			} else {
 				System.out
 						.println("The winner is: " + wmt.getWinner().getValue()); //$NON-NLS-1$
